@@ -1,9 +1,13 @@
-import './App.css'
+import Hero from "./components/Hero/Hero"
+import Navbar from "./components/Navbar"
 
-function App() {
+
+const App = () => {
   return (
-    <div>
-      <h1>Watch website</h1>
+    <div className="overflow-x-hidden bg-white dark:bg-black 
+    text-black dark:text-white duration-200">
+      <Navbar/>
+      <Hero/>
     </div>
   )
 }
